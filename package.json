@@ -21,5 +21,8 @@
     "data/model.json",
     "README.md",
     "index.mjs"
-  ]
+  ],
+  "dependencies": {
+    "express": "^4.18.1"
+  }
 }
