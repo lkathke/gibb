@@ -9,5 +9,24 @@ cd gibb
 docker build -t lkathke/gibb .
 docker run -d --name gibberish-service -p 3000:3000 lkathke/gibb
 ```
+
+# Example output:
+/Test
+```json
+{
+"text": "Test",
+"isGibberish": false
+}
+```
+
+/asd
+```json
+{
+"text": "asd",
+"isGibberish": true
+}
+```
+
+
 # License
 See LICENSE.md file.
