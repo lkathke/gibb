@@ -11,7 +11,7 @@ docker run -d --name gibberish-service -p 3000:3000 lkathke/gibb
 ```
 
 # Example output:
-/Test
+http://localhost:3000/Test
 ```json
 {
 "text": "Test",
@@ -19,7 +19,7 @@ docker run -d --name gibberish-service -p 3000:3000 lkathke/gibb
 }
 ```
 
-/asd
+http://localhost:3000/asd
 ```json
 {
 "text": "asd",
