@@ -9,5 +9,5 @@ cd gibb
 docker build -t lkathke/gibb .
 docker run -d --name gibberish-service -p 3000:3000 lkathke/gibb
 ```
-#License
+# License
 See LICENSE.md file.
